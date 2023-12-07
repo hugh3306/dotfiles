@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set({ "i", "v" }, "kj", "<Esc>", { noremap = true })
+vim.keymap.set({ "n", "x" }, "<leader>p", '"0p', { noremap = true })
